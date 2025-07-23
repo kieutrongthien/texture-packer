@@ -1,11 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+
 const {dialog} = require('@electron/remote')
 
 import I18 from '../../utils/I18';
 
 class Downloader {
-    static run(files, fileName, savePath, cb = null) {
+    static run(files, fileName, savePath) {
         let dir = savePath;
         const handle = (saveAt) => {
             for(let file of files) {
@@ -47,7 +48,7 @@ class Downloader {
                 handle(saveAt);
             }
 
-            if (cb) cb();
+            dialog.showMessageBox({ message: `Exported ${files.length} file.` });
         };
         
         if(!dir) {

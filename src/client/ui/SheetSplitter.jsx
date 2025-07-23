@@ -143,9 +143,7 @@ class SheetSplitter extends React.Component {
             });
         }
         
-        Downloader.run(files, this.textureName + '.zip', () => {
-            Observer.emit(GLOBAL_EVENT.SHOW_MESSAGE, `Exported ${files.length} file.`);
-        });
+        Downloader.run(files, this.textureName + '.zip');
         Observer.emit(GLOBAL_EVENT.HIDE_SHADER);
     }
 
