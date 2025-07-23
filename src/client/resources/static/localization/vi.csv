@@ -1,0 +1,140 @@
+﻿OK;OK
+YES;CÓ
+NO;KHÔNG
+CANCEL;HỦY
+SAVE;LƯU
+IMAGES;Hình ảnh
+LANGUAGE;Ngôn ngữ:
+ADD_IMAGES;Thêm hình ảnh
+ADD_IMAGES_TITLE;Thêm hình ảnh
+ADD_FOLDER;Thêm thư mục
+ADD_FOLDER_TITLE;Thêm thư mục
+ADD_ZIP;Thêm ZIP
+ADD_ZIP_TITLE;Thêm hình ảnh nén
+IMAGE_DROP_HELP;hoặc kéo và thả hình ảnh vào đây
+CLEAR;Trong
+CLEAR_TITLE;Xóa tất cả hình ảnh
+DELETE;Xóa
+DELETE_TITLE;Xóa hình ảnh đã chọn
+REPLACE_FILES_PROMPT;Thay thế các tệp hiện có?
+DISPLAY_OUTLINES;Vạch ra:
+SCALE;Tỷ lệ:
+SHOW_SPRITES;Animations
+SPRITE_NAME;Tên Sprite:
+ANIMATION_SPEED;Tốc độ hoạt hình:
+TEXTURE_NAME;Tên kết cấu:
+TEXTURE_NAME_TITLE;Tên kết cấu để xuất
+TEXTURE_FORMAT;Định dạng kết cấu:
+TEXTURE_FORMAT_TITLE;Định dạng kết cấu để xuất
+REMOVE_FILE_EXT;Xóa tệp ext:
+REMOVE_FILE_EXT_TITLE;Xóa tệp ext trong tên sprites
+PREPEND_FOLDER;Thêm tên thư mục:
+PREPEND_FOLDER_TITLE;Thêm tên thư mục vào tên tệp
+BASE64_EXPORT_TITLE;Xuất sang định dạng base64 (nếu có thể)
+BASE64_EXPORT;Xuất sang base64
+TINIFY_TITLE;Tinify bằng cách sử dụng https://tinypng.com
+TINIFY;Tinify
+TINIFY_KEY_TITLE;TinyPNG https://tinypng.com/developers 
+TINIFY_KEY;Phím TinyPNG
+DISABLE_SMOOTHING;Tắt làm mịn
+DISABLE_SMOOTHING_TITLE;Tắt tính năng làm mịn hình ảnh
+SCALE;Tỷ lệ:
+SCALE_TITLE;Tỷ lệ kết cấu cơ bản
+FILTER;Bộ lọc:
+FILTER_TITLE;Bộ lọc kết cấu kết quả
+FORMAT;Định dạng:
+FORMAT_TITLE;Định dạng xuất
+FILE_NAME;Tên tệp:
+FILE_NAME_TITLE;Tên tệp kết quả
+SAVE_PATH;Lưu đường dẫn
+SAVE_PATH_TITLE;Đường dẫn lưu kết quả gói
+WIDTH;Chiều rộng:
+WIDTH_TITLE;Chiều rộng kết cấu tối đa
+HEIGHT;Chiều cao:
+HEIGHT_TITLE;Chiều cao kết cấu tối đa
+FIXED_SIZE;Kích thước cố định:
+POWER_OF_TWO;Sức mạnh của hai:
+POWER_OF_TWO_TITLE;Sức mạnh của hai kích thước kết cấu 
+FIXED_SIZE_TITLE;Kích thước kết cấu cố định
+PADDING;Padding:
+PADDING_TITLE;Khoảng đệm sprite
+EXTRUDE;Extrude:
+EXTRUDE_TITLE;Kích thước đùn pixel viền sprite
+ALLOW_ROTATION;Cho phép xoay:
+ALLOW_ROTATION_TITLE;Cho phép xoay sprite
+ALLOW_TRIM;Cho phép cắt:
+ALLOW_TRIM_TITLE;Cho phép sprite cắt
+ALPHA_THRESHOLD;Ngưỡng alpha:
+ALPHA_THRESHOLD_TITLE;Giá trị ngưỡng Alpha
+TRIM_MODE;Chế độ cắt:
+TRIM_MODE_TITLE;Các biến thể chế độ cắt
+DETECT_IDENTICAL;Phát hiện giống hệt nhau:
+DETECT_IDENTICAL_TITLE;Phát hiện các sprite giống hệt nhau
+PACKER;Packer:
+PACKER_TITLE;Packer
+PACKER_METHOD;Phương pháp:
+PACKER_METHOD_TITLE;Phương pháp đóng gói
+EXPORT;Xuất khẩu
+PLEASE_WAIT;Hãy chờ...
+INVALID_SIZE_ERROR;Kích thước không hợp lệ. Tối thiểu: %sx%s
+NO_IMAGES_ERROR;Vui lòng thêm hình ảnh trước
+CLEAR_WARNING;Thực sự rõ ràng tất cả các hình ảnh?
+INVALID_ZIP_ERROR;Tệp zip không hợp lệ
+NO_TINIFY_KEY_ERROR;Vui lòng đặt phím TinyPNG của bạn https://tinypng.com/developers
+TINIFY_ERROR;Lỗi Tinify: %s
+TINIFY_ERROR_COMMON;Lỗi Tinify...
+OLD_BROWSER_MESSAGE1;Xin lỗi, nhưng trình duyệt của bạn đã quá cũ đối với ứng dụng này...
+OLD_BROWSER_MESSAGE2;Vui lòng sử dụng một trong các trình duyệt hiện đại:
+ABOUT_HOMEPAGE;Trang nhà:
+ABOUT_SOURCES;Nguồn:
+ABOUT_BUGS;Trình theo dõi lỗi:
+ABOUT_APPS;Tải ứng dụng:
+ABOUT_WEB;Phiên bản web:
+ABOUT_LIBS;Libs đã qua sử dụng:
+ABOUT_GULP_VERSION;Mô-đun nuốt:
+ABOUT_WEBPACK_VERSION;Plugin Webpack:
+ABOUT_CONTRIBUTORS;Đóng góp:
+EXPORTER_ERROR;Lỗi xuất: %s
+CUSTOM_EXPORTER_ERROR;Lỗi mẫu: %s
+FILE_EXT;Phần mở rộng tệp:
+DOCUMENTATION;tư liệu
+SAVE_CHANGES_CONFIRM;Lưu các thay đổi của dự án?
+MENU_FILE;Tệp
+MENU_FILE_PROJECT_NEW;Dự án mới
+MENU_FILE_PROJECT_LOAD;Mở dự án
+MENU_FILE_PROJECT_LOAD_RECENT;Mở gần đây
+MENU_FILE_PROJECT_SAVE;Lưu dự án
+MENU_FILE_PROJECT_SAVE_AS;Lưu dự án dưới dạng...
+MENU_FILE_PREFERENCES_SAVE;Lưu tùy chọn
+MENU_FILE_INSTALL_CLI;Cài đặt CLI
+MENU_FILE_EXIT;Thoát
+MENU_ACTIONS;Hành động
+MENU_ACTIONS_ADD_IMAGES;Thêm hình ảnh
+MENU_ACTIONS_ADD_FOLDER;Thêm thư mục
+MENU_ACTIONS_SELECT_ALL;Chọn tất cả
+MENU_ACTIONS_DELETE;Xóa
+MENU_ACTIONS_CLEAR;Đặt lại
+MENU_ACTIONS_EXPORT;Xuất
+MENU_TOOLS;Công cụ
+MENU_TOOLS_SPLITTER;Chia tờ
+MENU_LANGUAGE;Ngôn ngữ
+MENU_HELP;Trợ giúp
+MENU_HELP_ABOUT;Về
+UPDATER_TITLE;Phiên bản mới đã có sẵn: %s
+CLOSE;Đóng
+INSTALL;Cài đặt
+SKIP_VERSION;Nhảy dây
+SKIP_VERSION_CONFIRM;Thực sự bỏ qua phiên bản này và không nhắc nhở về nó nữa?
+CONTEXT_MENU_UNDO;Hoàn tác
+CONTEXT_MENU_REDO;Redo
+CONTEXT_MENU_CUT;Cắt
+CONTEXT_MENU_COPY;Bản sao
+CONTEXT_MENU_PASTE;Dán
+CONTEXT_MENU_DELETE;Xóa
+CONTEXT_MENU_SELECT_ALL;Chọn tất cả
+SPLIT;Chẻ
+SELECT_TEXTURE;Kết cấu
+SELECT_DATA_FILE;Tệp dữ liệu
+SPLITTER;Chia tờ
+SPLITTER_ERROR_NO_FRAMES;Không tìm thấy sprites. Có lẽ, định dạng atlas không chính xác.
+HOLD_TRIM;Hold trim:
