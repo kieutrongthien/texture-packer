@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/kieutrongthien/texture-packer">
+    <img src="https://raw.githubusercontent.com/kieutrongthien/texture-packer/refs/heads/master/electron/build/icons/128x128.png" alt="Texture Packer" width="128" height="128"/>
+  </a>
+</p>
+
 # Texture Packer
 
 Texture packer creates sprite sheets for you game or site. Rotation, trimming, multipacking, various export formats (json, xml, css, pixi.js, godot, phaser, cocos2d). Zip support. TinyPNG support. Split sheet tool.
