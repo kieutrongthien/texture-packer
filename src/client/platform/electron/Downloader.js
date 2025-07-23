@@ -5,8 +5,7 @@ const {dialog} = require('@electron/remote')
 import I18 from '../../utils/I18';
 
 class Downloader {
-
-    static run(files, fileName, savePath) {
+    static run(files, fileName, savePath, cb = null) {
         let dir = savePath;
         const handle = (saveAt) => {
             for(let file of files) {
@@ -47,6 +46,8 @@ class Downloader {
             else {
                 handle(saveAt);
             }
+
+            if (cb) cb();
         };
         
         if(!dir) {
