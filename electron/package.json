@@ -14,12 +14,13 @@
     "build": {
         "appId": "com.kieutrongthien.texture-packer",
         "productName": "Texture Packer",
-        "artifactName": "texture-packer-${arch}.${ext}",
+        "artifactName": "texture-packer-${version}-${arch}.${ext}",
         "win": {
             "target": [
                 "nsis"
             ],
-            "icon": "build/icons/256x256.png"
+            "icon": "build/icons/256x256.png",
+            "artifactName": "texture-packer-${version}-${os}-${arch}.${ext}"
         },
         "linux": {
             "target": [
