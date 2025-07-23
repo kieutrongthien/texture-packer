@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const path = require('path');
 const tinify = require('tinify');
 const argv = require('optimist').argv;
